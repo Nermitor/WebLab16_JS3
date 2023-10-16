@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg?w=1380&t=st=1697430033~exp=1697430633~hmac=2dbafa53a974c6b19e7b8c97ca1512780e3d9687d9756b21268f2840b1c1d8a9");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__body {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: #999999 0.5px 0.5px 5px;
+  width: fit-content;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+}
+.main__body input {
+  background: transparent;
+  border: black 1px solid;
+  border-radius: 8px;
+  padding: 4px;
+}
+.main__body input:focus {
+  outline: none;
+}
+.main__body input, .main__body label {
+  display: block;
+  font-size: 1.2rem;
+}
+.main__body label:not(:last-child) {
+  margin-bottom: 10px;
+}
+.main__flex {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.main__flex:not(:last-child) {
+  margin-bottom: 10px;
+}
+.main__header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/*# sourceMappingURL=styles.css.map */
